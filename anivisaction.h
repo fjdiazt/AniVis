@@ -27,15 +27,15 @@ class DzAniVisAction : public DzEditAction {
 	Q_OBJECT
 public:
 
-	static const QString PropertyName;
+	static const QString property_name;
 
 	DzAniVisAction();
 
 protected:
-	virtual void	executeAction();
+    void executeAction() override;
 
 private:
-	static wlsAnivisWatcher *myWatcher;
+	static wls_anivis_watcher *anivis_watcher_;
 };
 
 #endif 
