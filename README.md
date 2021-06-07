@@ -49,7 +49,7 @@ Click the menu item Edit / Add AnaVis Property.
 
 Select a node and move in the Timeline to the frame where you want it to disappear.
 
-Locate the AnimateVisibility properrty under Parameters and toggle it to Off.
+Locate the Animate Visibility property under Parameters/Visibility and toggle it to Off.
 
 Move the prior frame and toggle it to On.
 
